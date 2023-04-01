@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Świąteczna strona</title>
+    <title>Wielkanocne życzenia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet"> 
@@ -32,7 +32,7 @@
         font-family: 'Kalam', cursive;
         font-weight: 700;
         font-size: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     img {
@@ -46,12 +46,12 @@
     }
 
     .greetings {
-        width: 500px;
+        /* width: 500px; */
         position: relative;
         z-index: 100;
-        color: rgb(255, 255, 255);
+        color: rgb(141, 13, 13);
         font-size: 24px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     audio {
         position: relative;
@@ -62,7 +62,7 @@
 
     @media (max-width: 1000px) {
         .greetings {
-            margin: 300px auto;
+            margin: 100px auto;
             width: fit-content;
             position: relative;
             z-index: 100;
@@ -73,37 +73,44 @@
             align-items: center;
         }
         h1 {
-            font-size: 70px;
+            font-size: 60px;
         }
         p{
-            font-size: 40px;
+            font-size: 30px;
+            width: 600px;
         }
         img{
             opacity: 0.5;
         }
 
     }
+    .mb{
+        margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
     <audio controls>
-        <source src="./silent.mp3" type="audio/ogg">
+        <source src="./easter-wishes.mp3" type="audio/ogg">
     </audio>
     <div class="greetings">
-        <h1>Z okazji Świąt Bożego Narodzenia </h1>
-        <p>oraz zbliżającego się Nowego Roku </p>
-        <p>składam serdeczne życzenia</p> 
-        <p>odpoczynku w rodzinnym gronie, </p>
-        <p>pięknie pachnącej choinki,</p> 
-        <p>zdrowia i radości na co dzień, </p>
-        <p>pasma sukcesów, </p>
-        <p>spełnienia najskrytszych marzeń </p>
-        <p>oraz uśmiechu </p>
-        <p>i życzliwości na każdy dzień!</p>
-        <p>Wesołych Świąt!</p>
-        <p>Życzy Marysia</p>
+        <h1>Na te  Święta Wielkanocne,</h1>
+        <p>Niechaj Alleluja! Dzwony grają mocne,</p>
+        <p>Gotowe już jajka malowane, zające i baranki,</p> 
+        <p>W oknach już wiszą bieluśkie firanki</p>
+        <p>I choć w domu zamieszanie</p> 
+        <p>Wszyscy się szykują na wielkanocne śniadanie</p>
+        <p>Bo to czas, kiedy kłopoty przemijają, </p>
+        <p>I wszyscy razem do jednego stołu zasiadają</p>
+        <p>Niech te święta przyniosą nadzieję na lepsze dni</p>
+        <p>Wiarę, że nie spotka nas już nic złego</p>
+        <p>I Miłość od samego Jezusa Zmartwychwstałego!</p>
+        <p>Zdrowych i spokojnych świąt Wielkanocnych życzą</p>
+        <p class="mb"></p>
+        <p>Zarząd i członkowie Stowarzyszenia</p>
+        <p>na Rzecz Dzieci i Młodzieży spOKo</p>
     </div>
-    <img src="./christmas.jpg" />
+    <img src="./easter-wishes.jpg" />
   <script>
 
   </script>
