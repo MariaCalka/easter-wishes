@@ -49,9 +49,11 @@
         /* width: 500px; */
         position: relative;
         z-index: 100;
-        color: rgb(141, 13, 13);
+        color: rgb(0, 0, 0);
         font-size: 24px;
-        margin-top: 0px;
+        margin-top: 100px;
+        width: fit-content;
+        margin-left: 40%;
     }
     audio {
         position: relative;
@@ -60,9 +62,17 @@
         opacity: 1;
     }
 
+    .mb {
+        margin: auto auto auto 38%;
+        z-index: 100;
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+    }
+
     @media (max-width: 1000px) {
         .greetings {
-            margin: 100px auto;
+            margin: 40% 30%;
             width: fit-content;
             position: relative;
             z-index: 100;
@@ -79,37 +89,37 @@
             font-size: 30px;
             width: 600px;
         }
-        img{
+        /* img{
             opacity: 0.5;
+        } */
+        .mb {
+            margin: auto auto 100px 18%;
         }
 
     }
-    .mb{
-        margin-bottom: 20px;
-    }
+
   </style>
 </head>
 <body>
-    <audio controls>
+    <!-- <audio controls>
         <source src="./easter-wishes.mp3" type="audio/ogg">
-    </audio>
+    </audio> -->
     <div class="greetings">
-        <h1>Na te  Święta Wielkanocne,</h1>
-        <p>Niechaj Alleluja! Dzwony grają mocne,</p>
-        <p>Gotowe już jajka malowane, zające i baranki,</p> 
-        <p>W oknach już wiszą bieluśkie firanki</p>
-        <p>I choć w domu zamieszanie</p> 
-        <p>Wszyscy się szykują na wielkanocne śniadanie</p>
-        <p>Bo to czas, kiedy kłopoty przemijają, </p>
-        <p>I wszyscy razem do jednego stołu zasiadają</p>
-        <p>Niech te święta przyniosą nadzieję na lepsze dni</p>
-        <p>Wiarę, że nie spotka nas już nic złego</p>
-        <p>I Miłość od samego Jezusa Zmartwychwstałego!</p>
-        <p>Zdrowych i spokojnych świąt Wielkanocnych życzą</p>
-        <p class="mb"></p>
-        <p>Zarząd i członkowie Stowarzyszenia</p>
-        <p>na Rzecz Dzieci i Młodzieży spOKo</p>
+        <p>Zdrowych, pogodnych Świąt Wielkanocnych,</p>
+        <p>pełnych wiary, nadziei i miłości.</p>
+        <p>Radosnego, wiosennego nastroju,</p> 
+        <p>serdecznych spotkań w gronie rodziny</p>
+        <p>i wśród przyjaciół</p> 
+        <p>oraz wesołego Alleluja</p>
+
+
+
     </div>
+        <div class="mb">
+        <p>życzą</p>
+        <p>Zarząd i członkowie</p>
+        <p>Stowarzyszeniana Rzecz Dzieci i Młodzieży SPOKO</p>
+        </div>
     <img src="./easter-wishes.jpg" />
   <script>
 
